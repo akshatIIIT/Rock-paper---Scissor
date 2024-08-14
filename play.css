@@ -1,0 +1,84 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:Arial
+}
+body{
+    background-color:chartreuse;
+}
+.firstclass{
+    margin-top:5rem;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    
+}
+.box1{
+    height:30vh;
+    width:30vh;
+    border-radius:50%;
+    background-image:url("images.png");
+    background-size:cover;
+}
+.box2{
+    height:30vh;
+    width:30vh;
+    border-radius:50%;
+    background-image:url("paper.jpeg");
+    background-size:cover;
+}
+.box3{
+    height:30vh;
+    width:30vh;
+    border-radius:50%;
+    background-image:url("new.png");
+    background-size:cover;
+}
+.boxes:hover{
+    opacity:0.6;
+    cursor:pointer;
+}
+.points_table{
+    margin-bottom:340px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction:row;
+    gap:250px;
+}
+.points{
+    height:50px;
+    width:100px;
+    padding:10px 0;
+}
+h1{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:80px;
+    width:100%;
+    background-color:black;
+    color:aliceblue;
+    font-family:'Times New Roman', Times, serif;
+}
+.msgContainer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:3rem;
+    font-weight:bold;
+    height:30vmin;
+}
+.hide{
+    display:none;
+}
+.mypoint{
+    height:70px;
+    width:70px;
+    border-radius:20%;
+}
+.yourpoint{
+    height:70px;
+    width:70px;
+    border-radius:20%;
+}
